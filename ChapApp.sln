@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "ChapApp\Presentation.csproj", "{EA0AF005-AD91-4682-8A5E-E0D559A00B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "ClassLibrary1\Application.csproj", "{8A70A204-305D-4C1D-867E-853B79EFB34A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Domain\Data.csproj", "{11F767D0-25FB-4647-B49C-859D2C76099D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA0AF005-AD91-4682-8A5E-E0D559A00B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0AF005-AD91-4682-8A5E-E0D559A00B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0AF005-AD91-4682-8A5E-E0D559A00B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0AF005-AD91-4682-8A5E-E0D559A00B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A70A204-305D-4C1D-867E-853B79EFB34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A70A204-305D-4C1D-867E-853B79EFB34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A70A204-305D-4C1D-867E-853B79EFB34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A70A204-305D-4C1D-867E-853B79EFB34A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F767D0-25FB-4647-B49C-859D2C76099D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F767D0-25FB-4647-B49C-859D2C76099D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F767D0-25FB-4647-B49C-859D2C76099D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F767D0-25FB-4647-B49C-859D2C76099D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E096DCDA-B014-4291-8494-71740B00F95D}
+	EndGlobalSection
+EndGlobal
