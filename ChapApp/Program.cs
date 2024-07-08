@@ -16,7 +16,7 @@ builder.Services.AddSignalR();
 
 // Add database context
 builder.Services.AddDbContext<ChatAppDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add application services
 builder.Services.AddScoped<IChatService, ChatService>();
